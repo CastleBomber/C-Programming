@@ -1,0 +1,16 @@
+,
+10 11 10
+INT_TOKEN,FLOAT_TOKEN,INVALID_TOKEN,ADDOP_TOKEN,MULTOP_TOKEN,LPAREN_TOKEN,RPAREN_TOKEN,IDENT_TOKEN,SEMICOLON_TOKEN,ASSIGN_TOKEN
+ST,INV,RP,LP,INT,FL,AO,MO,ID,SE,AS
+(,),0123456789,*/%,+-,.,ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz,;,=, \t\n\r
+LP,RP,INT,MO,AO,INV,ID,SE,AS,s,INV,INVALID_TOKEN
+a,a,a,a,a,INV,a,a,a,a,INV,INVALID_TOKEN
+a,a,a,a,a,a,a,a,a,a,a,RPAREN_TOKEN
+a,a,a,a,a,a,a,a,a,a,a,LPAREN_TOKEN
+a,a,INT,a,a,FL,a,a,a,a,a,INT_TOKEN
+a,a,FL,a,a,a,a,a,a,a,a,FLOAT_TOKEN
+a,a,a,a,a,a,a,a,a,a,a,ADDOP_TOKEN
+a,a,a,a,a,a,a,a,a,a,a,MULTOP_TOKEN
+a,a,ID,a,a,a,ID,a,a,a,a,IDENT_TOKEN
+a,a,a,a,a,a,a,a,a,a,a,SEMICOLON_TOKEN
+a,a,a,a,a,a,a,a,a,a,a,ASSIGN_TOKEN

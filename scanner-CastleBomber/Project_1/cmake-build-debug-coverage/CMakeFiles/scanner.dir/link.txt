@@ -1,0 +1,1 @@
+/usr/bin/cc --coverage -g CMakeFiles/scanner.dir/src/main.c.o CMakeFiles/scanner.dir/src/scanner.c.o -o scanner 

@@ -1,0 +1,12 @@
+,
+6 7 6
+NUMBER,INVALID,ADDOP,MULTOP,LPAREN,RPAREN
+ST,IN,RP,LP,NB,AO,MO
+(,),0123456789,*/%,+-, \t\n\r
+LP,RP,NB,MO,AO,s,IN,INVALID
+a,a,a,a,a,a,IN,INVALID
+a,a,a,a,a,a,a,RPAREN
+a,a,a,a,a,a,a,LPAREN
+a,a,NB,a,a,a,a,NUMBER
+a,a,a,a,a,a,a,ADDOP
+a,a,a,a,a,a,a,MULTOP
