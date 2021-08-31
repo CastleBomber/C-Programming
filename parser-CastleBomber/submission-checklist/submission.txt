@@ -1,0 +1,32 @@
+In parsing expressions, we've gone through the contained terms from left to right; 
+with consequently the right-most terms are at the bottom of the tree. 
+Similarly, in parsing terms, we've gone through the contained factors from left from left to right, 
+so the right-most factors are at the bottom of the tree. 
+
+
+What issues does this create in evaluation? 
+Provide an example of an expression which will be evaluated incorrectly 
+(arithmetically speaking) by your completed parsing and evaluation utilites. 
+
+
+While our parse tree is more robust than previous projects, it only works for a finite amount of cases.
+	In one instance, we could have a statement as such:
+float x = 5%2;
+
+	The modulous operator is one of many symbols that are parser would not be able to account
+for in an assignment statment. The modulous is fairly important for computational purposes but
+is not going to cut it in our program. The issue created would be an unassigned x variable
+and if we try and use it, we will have to deal with a cascading amount of errors.
+
+
+
+
+What should it evaluate to (arithmetically), 
+what does it evaluate to instead (correctly with respect to the grammar, 
+but incorrectly with respect to arithmetics), and why?
+
+	The statement given above should result in x equaling 1.0.
+However we are not able to account for the '%' symbol in our parser program. This is simply because we ommited
+adding various symbols. To make the statement work, we would need to add more to our multop functionality
+(and create it for starters).
+

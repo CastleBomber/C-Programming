@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/c/Users/CastleBomber/Documents/GitHub/parser-CastleBomber/src/eval.c
+eval.h
+/mnt/c/Users/CastleBomber/Documents/GitHub/parser-CastleBomber/src/eval.h
+math.h
+-
+
+/mnt/c/Users/CastleBomber/Documents/GitHub/parser-CastleBomber/src/eval.h
+parse.h
+/mnt/c/Users/CastleBomber/Documents/GitHub/parser-CastleBomber/src/parse.h
+
+/mnt/c/Users/CastleBomber/Documents/GitHub/parser-CastleBomber/src/parse.h
+stdio.h
+-
+stdlib.h
+-
+scan.h
+/mnt/c/Users/CastleBomber/Documents/GitHub/parser-CastleBomber/src/scan.h
+
+/mnt/c/Users/CastleBomber/Documents/GitHub/parser-CastleBomber/src/scan.h
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+stdbool.h
+-
+

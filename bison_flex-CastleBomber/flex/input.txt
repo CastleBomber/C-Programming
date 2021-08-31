@@ -1,0 +1,5 @@
+int i = 2*2;
+repeat(2)
+    if (i >0) i = i*i;
+while (0.4) abc_1_2 = agd + 1;
+if (condition) print ("hello") ;

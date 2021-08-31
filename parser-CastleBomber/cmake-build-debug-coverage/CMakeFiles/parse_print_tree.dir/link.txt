@@ -1,0 +1,1 @@
+/usr/bin/cc --coverage -g CMakeFiles/parse_print_tree.dir/src/scan.c.o CMakeFiles/parse_print_tree.dir/src/parse.c.o CMakeFiles/parse_print_tree.dir/src/print.c.o CMakeFiles/parse_print_tree.dir/src/print_test.c.o -o parse_print_tree  -lm 

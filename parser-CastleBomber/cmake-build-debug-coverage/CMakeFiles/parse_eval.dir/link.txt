@@ -1,0 +1,1 @@
+/usr/bin/cc --coverage -g CMakeFiles/parse_eval.dir/src/scan.c.o CMakeFiles/parse_eval.dir/src/parse.c.o CMakeFiles/parse_eval.dir/src/eval.c.o CMakeFiles/parse_eval.dir/src/eval_test.c.o -o parse_eval  -lm 

@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="parser"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/mnt/c/Users/CastleBomber/Documents/GitHub/parser-CastleBomber/cmake-build-debug-coverage"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/CastleBomber/Documents/GitHub/parser-CastleBomber/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/CastleBomber/Documents/GitHub/parser-CastleBomber/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/CastleBomber/Documents/GitHub/parser-CastleBomber/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/CastleBomber/Documents/GitHub/parser-CastleBomber/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/mnt/c/Users/CastleBomber/Documents/GitHub/parser-CastleBomber/cmake-build-debug-coverage"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/CastleBomber/Documents/GitHub/parser-CastleBomber/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/CastleBomber/Documents/GitHub/parser-CastleBomber/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/CastleBomber/Documents/GitHub/parser-CastleBomber/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/CastleBomber/Documents/GitHub/parser-CastleBomber/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/mnt/c/Users/CastleBomber/Documents/GitHub/parser-CastleBomber/cmake-build-debug-coverage"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/CastleBomber/Documents/GitHub/parser-CastleBomber/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/CastleBomber/Documents/GitHub/parser-CastleBomber/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/CastleBomber/Documents/GitHub/parser-CastleBomber/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/CastleBomber/Documents/GitHub/parser-CastleBomber/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="parse_eval">
+				<Option output="/mnt/c/Users/CastleBomber/Documents/GitHub/parser-CastleBomber/cmake-build-debug-coverage/parse_eval" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/CastleBomber/Documents/GitHub/parser-CastleBomber/cmake-build-debug-coverage"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/CastleBomber/Documents/GitHub/parser-CastleBomber/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 parse_eval"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/CastleBomber/Documents/GitHub/parser-CastleBomber/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/CastleBomber/Documents/GitHub/parser-CastleBomber/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/CastleBomber/Documents/GitHub/parser-CastleBomber/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="parse_eval/fast">
+				<Option output="/mnt/c/Users/CastleBomber/Documents/GitHub/parser-CastleBomber/cmake-build-debug-coverage/parse_eval" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/CastleBomber/Documents/GitHub/parser-CastleBomber/cmake-build-debug-coverage"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/CastleBomber/Documents/GitHub/parser-CastleBomber/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 parse_eval/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/CastleBomber/Documents/GitHub/parser-CastleBomber/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/CastleBomber/Documents/GitHub/parser-CastleBomber/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/CastleBomber/Documents/GitHub/parser-CastleBomber/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="parse_print_tree">
+				<Option output="/mnt/c/Users/CastleBomber/Documents/GitHub/parser-CastleBomber/cmake-build-debug-coverage/parse_print_tree" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/CastleBomber/Documents/GitHub/parser-CastleBomber/cmake-build-debug-coverage"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/CastleBomber/Documents/GitHub/parser-CastleBomber/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 parse_print_tree"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/CastleBomber/Documents/GitHub/parser-CastleBomber/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/CastleBomber/Documents/GitHub/parser-CastleBomber/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/CastleBomber/Documents/GitHub/parser-CastleBomber/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="parse_print_tree/fast">
+				<Option output="/mnt/c/Users/CastleBomber/Documents/GitHub/parser-CastleBomber/cmake-build-debug-coverage/parse_print_tree" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/CastleBomber/Documents/GitHub/parser-CastleBomber/cmake-build-debug-coverage"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/CastleBomber/Documents/GitHub/parser-CastleBomber/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 parse_print_tree/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/CastleBomber/Documents/GitHub/parser-CastleBomber/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/CastleBomber/Documents/GitHub/parser-CastleBomber/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/CastleBomber/Documents/GitHub/parser-CastleBomber/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/mnt/c/Users/CastleBomber/Documents/GitHub/parser-CastleBomber/src/eval.c">
+			<Option target="parse_eval"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/CastleBomber/Documents/GitHub/parser-CastleBomber/src/eval.h">
+			<Option target="parse_eval"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/CastleBomber/Documents/GitHub/parser-CastleBomber/src/eval_test.c">
+			<Option target="parse_eval"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/CastleBomber/Documents/GitHub/parser-CastleBomber/src/parse.c">
+			<Option target="parse_eval"/>
+			<Option target="parse_print_tree"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/CastleBomber/Documents/GitHub/parser-CastleBomber/src/parse.h">
+			<Option target="parse_eval"/>
+			<Option target="parse_print_tree"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/CastleBomber/Documents/GitHub/parser-CastleBomber/src/print.c">
+			<Option target="parse_print_tree"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/CastleBomber/Documents/GitHub/parser-CastleBomber/src/print.h">
+			<Option target="parse_print_tree"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/CastleBomber/Documents/GitHub/parser-CastleBomber/src/print_test.c">
+			<Option target="parse_print_tree"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/CastleBomber/Documents/GitHub/parser-CastleBomber/src/scan.c">
+			<Option target="parse_eval"/>
+			<Option target="parse_print_tree"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/CastleBomber/Documents/GitHub/parser-CastleBomber/src/scan.h">
+			<Option target="parse_eval"/>
+			<Option target="parse_print_tree"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/CastleBomber/Documents/GitHub/parser-CastleBomber/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
